@@ -5,6 +5,7 @@ body
 	height: 4000px;
 	overflow-x: hidden;
 }
+.lead{font-size: 1.1rem;}
 .uppercase {text-transform: uppercase;}
 .capitalize{text-transform: capitalize;}
 .scrolled{background-color: rgba(0,0,0,0.8);}
@@ -230,18 +231,10 @@ body
 /*end Standard edit*/
 
 /*start Awesome edit*/
-.Awesome
-{
-	background-color: #eaeaea;
-	padding-bottom: 80px;
-}
-.Awesome h3
-{
-	margin: 80px 0 0 0;
-}
+.Awesome{background-color: #eaeaea;padding-bottom: 80px;}
+.Awesome h3{margin: 80px 0 0 0;}
 .Awesome p{	color: #888788;}
 .Awesome .head-border:after{margin:20px auto;}
-
 .Awesome i 
 {
 	color: #FFA04C;
@@ -252,9 +245,92 @@ body
 }
 /*end Awesome edit*/
 
+/*start Pricing edit*/
+.Pricing h3{margin: 80px 0 0 0;}
+.Pricing .head-border:after{margin:20px auto;}
+.Pricing .description{margin-bottom: 80px;}
+.Pricing .basic,.Pricing .enterprise{margin-top: 29px;;}
+.Pricing .price-box h4{padding: 10px 0;font-size: 20px;}
+.Pricing .row .col-md-3:nth-of-type(1){margin-left: 142.5px;}
+.Pricing .price-head
+{
+	background-color: #333;
+	color: #fff;
+	border-bottom: 4px solid #FFA04C;
+}
+.Pricing .price-head h4:after
+{
+	content: '';
+	display: block;
+	background-color: #888788;
+	width: 100%;
+	height: 1px;
+	margin-top: 10px
+}
+.Pricing .price 
+{
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+}
+.Pricing .price span{font-size: 25px;}
+.Pricing .tip
+{
+	background-color: #FFA04C;
+	color: #fff;
+	margin: 0;
+    padding-bottom: 5px;
+}
+.Pricing .price-head p
+{
+	color: #888788;
+	margin: 0;
+	padding-bottom:10px;
+	font-size: 11px;
+	font-style: italic;	
+	font-weight: bold;
+}
+.Pricing .price-body {background-color: #eaeaea;color: #888788;}
+.Pricing .price-body ul li{line-height: 30px;font-size: 13px;}
+.Pricing .price-body ul li:after
+{
+	content: '';
+	display: block;
+	width: 100%;
+	height: .5px;
+	background-color: #fff;
+}
+.Pricing .space{margin-bottom: 80px;}
+/*end Pricing edit*/
 
-
-
+/*start testmonails edit*/
+.testmonails{background-color: #eaeaea;padding-bottom: 80px;}
+.testmonails h3{margin: 80px 0 0 0;}
+.testmonails .head-section{margin-top: 40px;width: 300px;position: relative;}
+.testmonails .head-section p
+{	
+	color: #888788; 
+	padding: 10px;
+	font-size: 14px;
+	background-color: #fff;
+}
+.testmonails .head-section p:after
+{
+	content: '';
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 15px 15px 15px 15px;
+	border-color: #fff transparent transparent transparent;
+	position: absolute;
+	bottom: -28px;
+    left: 45px;
+}
+.testmonails .head-border:after{margin:20px auto;}
+.testmonails .media p{font-size: 13px;}
+.testmonails .media img{width: 60px;height: 60px; border-radius: 50%;}
+/*end testmonails edit*/
 
 
 
