@@ -1,0 +1,47 @@
+/* smart phone and tablets*/
+@media (max-width: 767px)
+{
+	.carousel,.social_media,.About,
+	.Sub-list,.Standard
+	{text-align: center;}
+	.carousel .centering-vp {margin-top: 100px;}
+	.carousel button{ display: block; margin:30px auto;}
+	.carousel h1{font-size: 40px;}
+	.carousel p:nth-of-type(1){font-size: 15px;}
+	.carousel .head-border:after {margin: 20px auto;}
+	.carousel form {display: none;}
+
+	.social_media a i{font-size: 35px;margin: 10px 12px 24px 0;}
+
+	.About ul{padding: 0;}
+	.About ul li {width: 100%;}
+	.About .tab-list{padding-bottom: 20px;}
+
+	.Sub-list i{float:none; margin: 15px 0px 10px 0px;}
+	.Sub-list .head-border:after{margin: 20px auto;}
+
+	.Standard .head-border:after{margin: 20px auto;}
+
+	.Pricing .row .col-md-3:nth-of-type(1){margin-left: 0px;}
+	.Pricing .basic,.Pricing .enterprise{margin-top: 0px;}
+}
+
+/*small screen*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.navbar .navbar-brand{text-align: center;}
+	.form-inline .form-control{width: 425px;}
+} 
+
+/*medium screen*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.form-inline .form-control{width: 425px;}
+}
+
+/*Large screen*/
+@media (min-width: 1200px)
+{
+	.form-inline .form-control{width: 425px;}
+}
+}
