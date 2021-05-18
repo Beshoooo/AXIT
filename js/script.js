@@ -1,3 +1,24 @@
+//Hide Loading-screen
+$(window).on("load",function()
+	{	
+		//hide screen
+		$(".loading-screen .sk-folding-cube").fadeOut(2000,function()
+			{
+				$('body').css('position','relative');
+				//show the scroll
+				
+				$(this).parent().fadeOut(2000,function()
+					{
+						//show the scroll
+						$('body').css('overflow','auto');
+
+						//remove all section because no longer need it
+						$(this).remove();
+					});
+			});
+	});
+//end
+
 
 /*make nav opacity 0.8 when scroll*/
 $(function(){
