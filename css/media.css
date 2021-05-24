@@ -11,8 +11,9 @@
 	.carousel .head-border:after {margin: 20px auto;}
 	.carousel form {display: none;}
 
-	.social_media a i{font-size: 35px;margin: 10px 12px 24px 0;}
+	.social_media a i{font-size: 35px;margin: 10px 12px 40px 0;}
 
+	.About {padding-top: 20px;}
 	.About ul{padding: 0;}
 	.About ul li {width: 100%;}
 	.About .tab-list{padding-bottom: 20px;}

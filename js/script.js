@@ -1,12 +1,23 @@
+
+$(document).ready(function()
+	{	
+		//Nice scroll lib
+ 		$("html").niceScroll({
+ 			cursorwidth:"10px"
+ 		});
+	});
+//end 
+
+
 //Hide Loading-screen
 $(window).on("load",function()
 	{	
 		//hide screen
 		$(".loading-screen .sk-folding-cube").fadeOut(2000,function()
 			{
-				$('body').css('position','relative');
-				//show the scroll
+				$('body ,html').css('position','relative');
 				
+				//show the scroll
 				$(this).parent().fadeOut(2000,function()
 					{
 						//show the scroll
@@ -50,4 +61,15 @@ $(".About li").click(function()
 	$($(this).data('class')).show();
 });
 
+
+//////////////////////////////////////////////////////////
+//make responsive on click in download button. 
+$(".carousel button ,.About button ,.stylish button").on("click", function(){
+  alert("There's no files to downloaded.");
+});
+
+//on click to send data.
+$(".carousel input[type= submit] ,.contact-us button").on("click", function(){
+  alert("Thanks For Your Trust");
+});
 
