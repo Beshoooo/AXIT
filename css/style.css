@@ -340,7 +340,12 @@ p {font-family: 'Orbitron', sans-serif;}
 }
 .testmonails .head-border:after{margin:20px auto;}
 .testmonails .media p{font-size: 13px;letter-spacing: 1.5px;}
-.testmonails .media img{width: 60px;height: 60px; border-radius: 50%;}
+.testmonails .media img
+{
+	width: 60px;height: 60px;
+	 border-radius: 50%;
+	margin-right: 15px;
+}
 /*end testmonails edit*/
 
 
