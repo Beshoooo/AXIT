@@ -61,6 +61,12 @@ $(".About li").click(function()
 	$($(this).data('class')).show();
 });
 
+/* hide list when choose any section in nav*/
+$(".navbar li a").click(function()
+{
+	$(".navbar .navbar-collapse").removeClass("show");
+});
+
 
 //////////////////////////////////////////////////////////
 //make responsive on click in download button. 
