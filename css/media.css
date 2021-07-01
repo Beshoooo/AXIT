@@ -100,5 +100,7 @@
 
 /*Large screen "labtop large"*/
 @media (min-width: 1200px)
-{}
+{
+	.sk-folding-cube{margin: 30% auto;}
+}
 
