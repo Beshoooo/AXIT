@@ -382,10 +382,11 @@ p {font-family: 'Orbitron', sans-serif;}
 	border-bottom: 2px solid #eee;
 	font-size: 17px;
 	color: #888788;
+	margin-bottom: 3px;
 }
 .contact-us textarea
 {
-	height: 130px;
+	height: 136px;
 	width: 100%;
 	border: none;
 	border-bottom: 2px solid #eee;
