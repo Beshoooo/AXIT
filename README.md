@@ -1,5 +1,5 @@
 # AXIT
-Bootstrap Design[2]
+My Design[2] by bootstrap.
 
 ## Using
 -HTML5 
